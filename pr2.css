@@ -1,0 +1,43 @@
+.block{
+  display: flex;
+  flex-direction: row;
+}
+.second{
+  display: block;
+  text-align: center;
+}
+h3{
+  color: blue;
+  text-align: center;
+}
+h4{
+  color: darkblue;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+  background-color: bisque;
+}
+button{
+  background-color: rgb(200, 0, 0);
+  color: white;
+  border: none;
+  height: 30px;
+  width: 105px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 8px;
+  margin-left: 20px;
+  transition: opacity 0.15s;
+}
+button:hover {
+  opacity: 0.8;
+}
+button:active {
+  opacity: 0.5;
+}
+#timer{
+  color: blue;
+  font-size: 70px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
